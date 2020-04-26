@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#NameBx {
+  padding-right: 45%;
+  padding-left: 45%;
+  padding-top: 20%;
+}
+
+
+#gamebox {
+  background-color: grey;
+  height: 600px;
+  width: 700px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+
+#equations {
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+  margin-left: 0px  ;
+  grid-gap: 100px;
+  padding: 30px;
+  text-align: center;
+}
+
+#box1 {
+  background-color: khaki;  
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#box2 {
+  background-color: khaki; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box3 {
+  background-color: khaki; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box4 {
+  background-color: khaki; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cannon{
+  background-color: khaki; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  width: 100px;
+  margin-left: 300px;
+}
+
+#brandsgrid {
+  display: grid;
+  
+  background-color: #f9f9f9;
+  text-align: center;
+}
