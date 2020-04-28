@@ -41,18 +41,13 @@ document.getElementById("p4").innerHTML = `${MATH7} + ${MATH8}`;
 add();
 
 
-function movement() {
-  var elem = document.getElementById("equations");
-  var pos = 0;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (pos == 350) {
-      clearInterval(id);
-    } else {
-      pos++;
-      elem.style.top = pos + 'px';
-      elem.style.left = pos + 'px';
-    }
-  }
+function movement(){
+  setInterval(() => {
+
+    document.getElementById("box1").style.marginTop = "30px";
+  }, 1000);
+
+
+}
 
 movement();
