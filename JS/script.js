@@ -45,9 +45,26 @@ function movement(){
   setInterval(() => {
 
     document.getElementById("box1").style.marginTop = "30px";
-  }, 1000);
+  }, 1000); 
 
+
+  setInterval(() => {
+
+    document.getElementById("box2").style.marginTop = "30px";
+  }, 2000); 
+
+  setInterval(() => {
+
+    document.getElementById("box3").style.marginTop = "30px";
+  }, 1000); 
+
+  setInterval(() => {
+
+    document.getElementById("box4").style.marginTop = "30px";
+  }, 3000); 
 
 }
+
+
 
 movement();
