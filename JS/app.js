@@ -23,48 +23,20 @@ function add() {
   if (anspicker == 0) {
     document.getElementById("cannon").innerHTML = `${answer}`;
 } else if (anspicker == 1) {
-   document.getElementById("cannon").innerHTML = `${answer1}`;
+   document.getElementById("cannon").innerHTML = `${answer2}`;
 } else if (anspicker == 2) {
   document.getElementById("cannon").innerHTML = `${answer3}`;
 } else {
-  document.getElementById("cannon").innerHTML = `${answer3}`;
+  document.getElementById("cannon").innerHTML = `${answer4}`;
 }  
 
-document.getElementById("p1").innerHTML = `${MATH1} + ${MATH2}`;
-document.getElementById("p2").innerHTML = `${MATH3} + ${MATH4}`;
-document.getElementById("p3").innerHTML = `${MATH5} + ${MATH6}`;
-document.getElementById("p4").innerHTML = `${MATH7} + ${MATH8}`;
+  document.getElementById("p1").innerHTML = `${MATH1} + ${MATH2}`;
+  document.getElementById("p2").innerHTML = `${MATH3} + ${MATH4}`;
+  document.getElementById("p3").innerHTML = `${MATH5} + ${MATH6}`;
+  document.getElementById("p4").innerHTML = `${MATH7} + ${MATH8}`;
 
 }
 
 
 add();
 
-
-function movement(){
-  setInterval(() => {
-
-    document.getElementById("box1").style.marginTop = "30px";
-  }, 1000); 
-
-
-  setInterval(() => {
-
-    document.getElementById("box2").style.marginTop = "30px";
-  }, 2000); 
-
-  setInterval(() => {
-
-    document.getElementById("box3").style.marginTop = "30px";
-  }, 1000); 
-
-  setInterval(() => {
-
-    document.getElementById("box4").style.marginTop = "30px";
-  }, 3000); 
-
-}
-
-
-
-movement();

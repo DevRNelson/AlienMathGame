@@ -5,13 +5,18 @@
 
 html{
   background-color: rgb(32, 32, 32);
+  font-family: 'Raleway', sans-serif;
+  color: rgb(36, 24, 100);
+  font-size: 1.5rem;
 }
 
 #gamebox {
-  background-color: grey;
-  height: 600px;
-  width: 700px;
-  margin-left: 300px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../PICS/space.jpg);
+  background-position: center;
+  background-size: 1000px 900px;
+  height: 650px;
+  width: 1000px;
+  margin-left: 150px;
   margin-top: 20px;
 }
 
@@ -27,8 +32,12 @@ html{
 }
 
 #box1 {
-  background-color: khaki;  
-  height: 50px;
+  background-image: url(../PICS/ship.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,44 +46,60 @@ html{
 
 
 #box2 {
-  background-color: khaki; 
-  height: 50px;
+  background-image: url(../PICS/ship.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #box3 {
-  background-color: khaki; 
-  height: 50px;
+  background-image: url(../PICS/ship.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #box4 {
-  background-color: khaki; 
-  height: 50px;
+  background-image: url(../PICS/ship.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 150px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #cannon{
-  background-color: khaki; 
+  background-image: url(../PICS/sat.png);
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 500px;
-  width: 100px;
-  margin-left: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 150px;
+  height: 150px;
+  margin-left: 400px;
   position: absolute;
+  color: white;
 }
 
 #brandsgrid {
   display: grid;
-  
   background-color: #f9f9f9;
   text-align: center;
 }
